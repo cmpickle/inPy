@@ -1,5 +1,6 @@
 import pyautogui
 import os
+import time
 
 os.system("TASKKILL /F /IM iexplore.exe")
 
