@@ -41,13 +41,15 @@ if fiddler != None:
 print("moving Skype....")
 skype = auto.getWindow('Skype')
 if skype != None:
-	skype.restoe()
-	skype.move(-2880, 500)
-	skype.resize(980, 480)
+	skype.restore()
+	skype.move(0, 0)
+	skype.move(-2888, 492)
+	skype.resize(970, 500)
 
 print("moving Slack....")
 slack = auto.getWindow('Slack')
 if slack != None:
 	slack.restore()
+	slack.move(0, 0)
 	slack.move(-2880, 0)
-	slack.resize(960, 480)
+	slack.resize(960, 490)
