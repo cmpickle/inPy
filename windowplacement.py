@@ -11,7 +11,7 @@ print("moving HipChat....")
 hipchat = auto.getWindow('HipChat')
 if hipchat != None:
 	hipchat.restore()
-	hipchat.move(2280, 250)
+	hipchat.move(-3000, 250)
 
 print("moving Spotify....")
 spotify = auto.getWindow('Spotify')
@@ -23,14 +23,14 @@ print("moving Outlook....")
 outlook = auto.getWindow('Outlook')
 if outlook != None:
 	outlook.restore()
-	outlook.move(1920, 115)
-	outlook.resize(960, 1040)
+	outlook.move(-3000, 0)
+	outlook.resize(1100, 760)
 
 print("moving Skype for Business....")
 skypeforbusiness = auto.getWindow('Skype for Business')
 if skypeforbusiness != None:
 	skypeforbusiness.restore()
-	skypeforbusiness.move(2000, 300)
+	skypeforbusiness.move(-2900, 300)
 
 print("moving Fiddler....")
 fiddler = auto.getWindow('Telerik Fiddler Web Debugger')
@@ -42,12 +42,12 @@ print("moving Skype....")
 skype = auto.getWindow('Skype')
 if skype != None:
 	skype.restore()
-	skype.move(2872, 635)
-	skype.resize(980, 520)
+	skype.move(-3005, 1350)
+	skype.resize(1100, 300)
 
 print("moving Slack....")
 slack = auto.getWindow('Slack')
 if slack != None:
 	slack.restore()
-	slack.move(2880, 115)
-	slack.resize(960, 520)
+	slack.move(-3000, 763)
+	slack.resize(1100, 580)
