@@ -24,7 +24,7 @@ outlook = auto.getWindow('Outlook')
 if outlook != None:
 	outlook.restore()
 	outlook.move(-3000, 0)
-	outlook.resize(1100, 760)
+	outlook.resize(1080, 760)
 
 print("moving Skype for Business....")
 skypeforbusiness = auto.getWindow('Skype for Business')
@@ -50,4 +50,4 @@ slack = auto.getWindow('Slack')
 if slack != None:
 	slack.restore()
 	slack.move(-3000, 763)
-	slack.resize(1100, 580)
+	slack.resize(1080, 580)
