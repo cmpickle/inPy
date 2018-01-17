@@ -7,12 +7,6 @@ if chrome != None:
 	chrome.move(-1920, 0)
 	chrome.maximize()
 
-print("moving HipChat....")
-hipchat = auto.getWindow('HipChat')
-if hipchat != None:
-	hipchat.restore()
-	hipchat.move(-3000, 250)
-
 print("moving Spotify....")
 spotify = auto.getWindow('Spotify')
 if spotify != None:
@@ -44,6 +38,13 @@ if skype != None:
 	skype.restore()
 	skype.move(-3005, 1350)
 	skype.resize(1100, 300)
+
+print("moving ButtChat....")
+hipchat = auto.getWindow('HipChat')
+if hipchat != None:
+	hipchat.restore()
+	hipchat.move(-3005, 1350)
+	hipchat.resize(1100, 540)
 
 print("moving Slack....")
 slack = auto.getWindow('Slack')
